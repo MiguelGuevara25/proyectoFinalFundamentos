@@ -1,14 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\projectsWeb\\ProjectsFundamentosC#\\Presentacion\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Trabajofinal_Fundamentos.csproj|c:\\users\\migue\\onedrive\\escritorio\\projectsweb\\projectsfundamentosc#\\presentacion\\trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\datos\\dusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|solutionrelative:datos\\dusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{898F2D8F-9A9F-4E0A-BE6E-288C6F0862CE}|Negocio\\Negocio.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\negocio\\nusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{898F2D8F-9A9F-4E0A-BE6E-288C6F0862CE}|Negocio\\Negocio.csproj|solutionrelative:negocio\\nusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\datos\\dpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|solutionrelative:datos\\dpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\entidades\\eusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\eusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\datos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|solutionrelative:datos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\datos\\dextra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|solutionrelative:datos\\dextra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\datos\\ddisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|solutionrelative:datos\\ddisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\datos\\dhabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE765EF-4F4F-48DA-9F3E-258BA153A0CF}|Datos\\Datos.csproj|solutionrelative:datos\\dhabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\entidades\\edisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\edisponibilidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\entidades\\ehabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\ehabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\entidades\\epagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\epagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\entidades\\eextra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\eextra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\trabajofinal_fundamentos\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Presentacion.csproj|solutionrelative:trabajofinal_fundamentos\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Trabajofinal_Fundamentos.csproj|C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Trabajofinal_Fundamentos.csproj|solutionrelative:trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Trabajofinal_Fundamentos.csproj|c:\\users\\migue\\onedrive\\escritorio\\projectsweb\\projectsfundamentosc#\\presentacion\\trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8708761C-8FDF-4F3A-9551-7508B2CD0DE2}|Trabajofinal_Fundamentos\\Trabajofinal_Fundamentos.csproj|solutionrelative:trabajofinal_fundamentos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|c:\\users\\usuario\\desktop\\carpeta_trabajo_fundamenta\\proyectofinalfundamentos\\entidades\\ereserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1995DD7-B049-43B0-9EE5-4CAABAB8612E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\ereserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +146,437 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Escritorio\\projectsWeb\\ProjectsFundamentosC#\\Presentacion\\Trabajofinal_Fundamentos\\Form1.cs",
-              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form1.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Escritorio\\projectsWeb\\ProjectsFundamentosC#\\Presentacion\\Trabajofinal_Fundamentos\\Form1.cs*",
-              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form1.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "DocumentIndex": 5,
+              "Title": "dPagos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dPagos.cs",
+              "RelativeDocumentMoniker": "Datos\\dPagos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dPagos.cs",
+              "RelativeToolTip": "Datos\\dPagos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T23:17:44.046Z",
+              "WhenOpened": "2024-06-17T02:12:48.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dExtra.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dExtra.cs",
+              "RelativeDocumentMoniker": "Datos\\dExtra.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dExtra.cs",
+              "RelativeToolTip": "Datos\\dExtra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:02:59.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "eUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eUsuario.cs",
+              "RelativeDocumentMoniker": "Entidades\\eUsuario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eUsuario.cs",
+              "RelativeToolTip": "Entidades\\eUsuario.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:23:43.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dUsuario.cs",
+              "RelativeDocumentMoniker": "Datos\\dUsuario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dUsuario.cs",
+              "RelativeToolTip": "Datos\\dUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:21:17.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\Database.cs",
+              "RelativeDocumentMoniker": "Datos\\Database.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\Database.cs",
+              "RelativeToolTip": "Datos\\Database.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:09:58.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form10.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form10.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form10.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form10.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form10.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:53:09.307Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "eDisponibilidad.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eDisponibilidad.cs",
+              "RelativeDocumentMoniker": "Entidades\\eDisponibilidad.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eDisponibilidad.cs",
+              "RelativeToolTip": "Entidades\\eDisponibilidad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:33:18.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form1.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T23:35:22.164Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form1.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form1.cs",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T23:35:21.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Negocio\\nUsuario.cs",
+              "RelativeDocumentMoniker": "Negocio\\nUsuario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Negocio\\nUsuario.cs",
+              "RelativeToolTip": "Negocio\\nUsuario.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wBoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T03:48:57.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Escritorio\\projectsWeb\\ProjectsFundamentosC#\\Presentacion\\Trabajofinal_Fundamentos\\Form1.cs",
-              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form1.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Escritorio\\projectsWeb\\ProjectsFundamentosC#\\Presentacion\\Trabajofinal_Fundamentos\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form1.cs [Dise\u00F1o]*",
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form2.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form2.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T23:15:28.22Z",
+              "WhenOpened": "2024-06-16T23:53:16.979Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form2.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form2.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form2.cs",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T04:12:02.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dHabitacion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dHabitacion.cs",
+              "RelativeDocumentMoniker": "Datos\\dHabitacion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dHabitacion.cs",
+              "RelativeToolTip": "Datos\\dHabitacion.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:21:12.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dDisponibilidad.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dDisponibilidad.cs",
+              "RelativeDocumentMoniker": "Datos\\dDisponibilidad.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Datos\\dDisponibilidad.cs",
+              "RelativeToolTip": "Datos\\dDisponibilidad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:33:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "eHabitacion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eHabitacion.cs",
+              "RelativeDocumentMoniker": "Entidades\\eHabitacion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eHabitacion.cs",
+              "RelativeToolTip": "Entidades\\eHabitacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:20:52.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ePagos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\ePagos.cs",
+              "RelativeDocumentMoniker": "Entidades\\ePagos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\ePagos.cs",
+              "RelativeToolTip": "Entidades\\ePagos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:12:32.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "eExtra.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eExtra.cs",
+              "RelativeDocumentMoniker": "Entidades\\eExtra.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eExtra.cs",
+              "RelativeToolTip": "Entidades\\eExtra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:02:37.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form15.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form15.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form15.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form15.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form15.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:02:47.434Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form14.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form14.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form14.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form14.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form14.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:01:42.653Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form13.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form13.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form13.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form13.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form13.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:58:26.696Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Form12.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form12.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form12.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form12.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form12.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:55:42.919Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Form11.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form11.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form11.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form11.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form11.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:53:50.717Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form9.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form9.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form9.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form9.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form9.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:48:18.244Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Form8.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form8.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form8.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form8.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form8.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:47:35.818Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form7.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form7.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form7.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form7.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form7.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:42:42.838Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Form6.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form6.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form6.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form6.cs",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form6.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:31:34.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Form6.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form6.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form6.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form6.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form6.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:23:32.934Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form5.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form5.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form5.cs",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form5.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:04:58.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form5.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form5.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form5.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:03:41.249Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Form4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form4.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form4.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form4.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T00:02:00.343Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form3.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form3.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form3.cs",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form3.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T23:59:59.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form3.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form3.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T23:56:51.73Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "eReserva.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eReserva.cs",
+              "RelativeDocumentMoniker": "Entidades\\eReserva.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Entidades\\eReserva.cs",
+              "RelativeToolTip": "Entidades\\eReserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T23:04:39.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form1.cs",
+              "RelativeDocumentMoniker": "Trabajofinal_Fundamentos\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Carpeta_Trabajo_Fundamenta\\proyectoFinalFundamentos\\Trabajofinal_Fundamentos\\Form1.cs",
+              "RelativeToolTip": "Trabajofinal_Fundamentos\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T23:17:44.046Z"
             }
           ]
         }

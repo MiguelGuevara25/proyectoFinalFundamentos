@@ -1,0 +1,6 @@
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Entidades\bin\Debug\Entidades.dll
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Entidades\obj\Debug\Entidades.dll
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Entidades\obj\Debug\Entidades.pdb

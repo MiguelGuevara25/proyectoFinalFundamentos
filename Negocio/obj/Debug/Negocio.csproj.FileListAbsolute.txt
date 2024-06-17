@@ -1,0 +1,11 @@
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\bin\Debug\Negocio.dll
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\bin\Debug\Datos.dll
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\bin\Debug\Entidades.dll
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\bin\Debug\Datos.pdb
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\bin\Debug\Entidades.pdb
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\obj\Debug\Negocio.dll
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Negocio\obj\Debug\Negocio.pdb
