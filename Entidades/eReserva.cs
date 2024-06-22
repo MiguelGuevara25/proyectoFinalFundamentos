@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class eReserva
+    public class eReserva
     {
         public int codigo_reserva { get; set; }
         public int tiempo_hospedaje { get; set; }

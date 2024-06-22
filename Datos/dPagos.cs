@@ -39,5 +39,19 @@ namespace Datos
                 db.DesconectaDb();
             }
         }
+
+        public int MayorId()
+        {
+            SqlConnection con = db.ConectaDb();
+            String query = "SELECT MAX(pago_id) as max_id FROM Pagos";
+
+            SqlCommand command = new SqlCommand(query, con);
+
+            command.ExecuteNonQuery();
+
+            int count = (int)command.ExecuteScalar();
+
+            return count+1;
+        }
     }
 }

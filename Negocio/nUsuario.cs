@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Entidades;
 using Datos;
+using System.Net.Http;
 
 namespace Negocio
 {
@@ -13,6 +14,7 @@ namespace Negocio
     {
 
         dUsuario usuario;
+        
 
         public nUsuario()
         {
@@ -38,7 +40,13 @@ namespace Negocio
 
         }
 
+     
 
+        public eUsuario Validar(string correo)
+        {
+
+            return usuario.Validar_Usuario(correo);
+        }
 
         public List<eUsuario>ListaUser()
         {

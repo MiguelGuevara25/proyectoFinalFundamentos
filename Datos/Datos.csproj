@@ -46,8 +46,10 @@
     <Compile Include="dExtra.cs" />
     <Compile Include="dHabitacion.cs" />
     <Compile Include="dPagos.cs" />
+    <Compile Include="dReservas.cs" />
     <Compile Include="dUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="dServicios_adicionales.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">

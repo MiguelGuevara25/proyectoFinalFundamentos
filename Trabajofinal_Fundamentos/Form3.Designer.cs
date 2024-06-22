@@ -45,6 +45,7 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "Iniciar sección";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -90,6 +91,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "Regresar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 

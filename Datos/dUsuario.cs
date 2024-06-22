@@ -85,5 +85,43 @@ namespace Datos
                 db.DesconectaDb();
             }
         }
+
+        public eUsuario Validar_Usuario(string correo)
+        {
+            eUsuario user = null;
+            try
+            {
+               
+                SqlConnection con = db.ConectaDb();
+                string select = "SELECT codigo_U,contrasena,correo FROM Usuario WHERE correo = @correo;";
+                SqlCommand cmd = new SqlCommand(select, con);
+                cmd.Parameters.AddWithValue("@correo", correo);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    user = new eUsuario();
+                    user.codigo_U = (int)reader["codigo_U"];
+                    user.contrasena = (string)reader["contrasena"];
+                    user.correo = (string)reader["correo"];
+
+                }
+
+                reader.Close();
+                return user;
+
+            }
+            catch (Exception ex)
+            {
+
+                return user;
+
+            }
+            finally
+            {
+                db.DesconectaDb();
+
+            }
+        }
     }
 }

@@ -48,6 +48,7 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Sobre nosotros";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -66,6 +67,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "Salir";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -77,6 +79,7 @@
             this.button2.TabIndex = 12;
             this.button2.Text = "Iniciar sección";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -118,6 +121,7 @@
             this.button5.TabIndex = 17;
             this.button5.Text = "Disponiblidad";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox1
             // 

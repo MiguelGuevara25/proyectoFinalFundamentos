@@ -49,6 +49,7 @@
             this.button5.TabIndex = 19;
             this.button5.Text = "Cerrar Cuenta";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -71,6 +72,7 @@
             this.button3.TabIndex = 17;
             this.button3.Text = "Servicios adicionales";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -82,6 +84,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Ver reservas";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
@@ -113,6 +116,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Reservas";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 

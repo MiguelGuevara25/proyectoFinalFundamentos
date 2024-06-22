@@ -94,5 +94,14 @@ namespace Trabajofinal_Fundamentos
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 formulario1 = new Form1();
+
+            formulario1.Show();
+
+            this.Hide();
+        }
     }
 }

@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class eServicios_adicionales
+    public class eServicios_adicionales
     {
-        public int servicio_A_id { get; set; }
-        public DateTime fechas_inicio { get; set; }
-        public DateTime fechas_fin { get; set; }
-        public int espacios { get; set; }
-        public int tiempo { get; set; }
-        public int tipo_ser_id { get; set; }
+        public int Orden { get; set; }
+        public DateTime Fechas_inicio { get; set; }
+        public DateTime Fechas_fin { get; set; }
+
+        public int Tiempo { get; set; }
+       
+        public string Tipo_servicio { get; set; }
+
+        public string Descripcion { get; set; }
+
+        public string estado { get; set; }
+
+
     }
 }

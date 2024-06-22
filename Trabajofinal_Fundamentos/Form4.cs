@@ -16,5 +16,14 @@ namespace Trabajofinal_Fundamentos
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 formualri1 = new Form1();
+
+            formualri1.Show();
+
+            this.Hide();
+        }
     }
 }

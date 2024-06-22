@@ -12,7 +12,7 @@ namespace Entidades
         public DateTime fechas_inicio { get; set; }
         public DateTime fechas_fin { get; set; }
         public String estado { get; set; }
-        public int espacios { get; set; }
+      
         
     }
 }

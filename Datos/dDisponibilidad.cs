@@ -11,30 +11,49 @@ namespace Datos
     public class dDisponibilidad
     {
         Database db = new Database();
-        public String Actualizar(int espacios, String clave, eHabitacion hat)
+
+        public String ActualizarfechaInicio()
         {
-            try
-            {
-                SqlConnection con = db.ConectaDb();
-                String query = "UPDATE Disponibilidad SET espacios = @espacio , estado=@estado  WHERE dispon_id = @Orden";
+            SqlConnection con = db.ConectaDb();
+            String query = "UPDATE Disponibilidad SET fecha_inicio = GETDATE()  WHERE fecha_inicio < GETDATE() AND estado='LIBRE'";
 
-                SqlCommand command = new SqlCommand(query, con);
+            SqlCommand command = new SqlCommand(query,con);
 
-                command.Parameters.AddWithValue("@espacio", espacios-1);
-                command.Parameters.AddWithValue("@estado", clave);
-                command.Parameters.AddWithValue("@Orden",hat.ha_id);
-                command.ExecuteNonQuery();
-                return "Inserto";
-            }
-            catch (Exception e)
-            {
-                return e.Message;
-            }
-            finally
-            {
-                db.DesconectaDb();
-            }
+            command.ExecuteNonQuery();
+
+            db.DesconectaDb();
+            return "Actuactualizado";
+
 
         }
+
+        public String ActualizafechaReserva(int dias,int id)
+        {
+            SqlConnection con = db.ConectaDb();
+            String query = "UPDATE Disponibilidad SET fecha_inicio = GETDATE(), fecha_fin=@fecha, estado=@estado  WHERE dispon_id=@id";
+
+            SqlCommand command = new SqlCommand(query, con);
+            DateTime fechaActual = DateTime.Now;
+            DateTime fechaFutura = fechaActual.AddDays(dias);
+            command.Parameters.AddWithValue("@fecha",fechaFutura);
+            command.Parameters.AddWithValue("@id",id);
+            command.Parameters.AddWithValue("@estado","RESERVADO");
+
+            command.ExecuteNonQuery();
+
+            return "Actuactualizado";
+        }
+
+        public String LiberarReserva()
+        {
+            SqlConnection con = db.ConectaDb();
+            String query = "UPDATE Disponibilidad SET estado='LIBRE' WHERE fecha_fin<GETDATE()";
+            SqlCommand command = new SqlCommand(query, con);
+
+            command.ExecuteNonQuery();
+
+            return "Liberado";
+        }
+
     }
 }

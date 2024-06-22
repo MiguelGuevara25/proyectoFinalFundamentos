@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="eCombinacion.cs" />
     <Compile Include="eDisponibilidad.cs" />
     <Compile Include="eExtra.cs" />
     <Compile Include="eHabitacion.cs" />
     <Compile Include="eReserva.cs" />
+    <Compile Include="eRU.cs" />
     <Compile Include="eServicios_adicionales.cs" />
     <Compile Include="eTipo_de_servicio.cs" />
     <Compile Include="eTipo_promocion.cs" />

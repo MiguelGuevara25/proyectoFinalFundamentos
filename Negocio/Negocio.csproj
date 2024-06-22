@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nDisponibilidad.cs" />
+    <Compile Include="nExtra.cs" />
+    <Compile Include="nHabitacion.cs" />
+    <Compile Include="nPagos.cs" />
+    <Compile Include="nReserva.cs" />
+    <Compile Include="nServicios_adicional.cs" />
     <Compile Include="nUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
