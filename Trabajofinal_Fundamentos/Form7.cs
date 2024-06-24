@@ -24,11 +24,28 @@ namespace Trabajofinal_Fundamentos
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                DataGridViewRow filaSeleccionada = dataGridView1.SelectedRows[0];
+                int espacios = Convert.ToInt32(filaSeleccionada.Cells["Espacios"].Value.ToString());
 
+                if (Conexion_forms.numero_personas > espacios - 1)
+                {
+                    MessageBox.Show("Ya no puede poner más personas en esta reserva");
+                    button1.Enabled = false;
 
-            Form8 formulario8 = new Form8();
+                }
+                else
+                {
+                    Form8 formulario8 = new Form8();
 
-            formulario8.Show();
+                    formulario8.Show();
+                }
+                
+
+            }
+
+                
         }
 
         private void Form7_Load(object sender, EventArgs e)
@@ -61,9 +78,12 @@ namespace Trabajofinal_Fundamentos
             {
                 MessageBox.Show("Por favor, no olvide poner su tiempo de hospedaje o coloco mal el formato de número");
             }
+
+
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 Conexion_forms.tiempo_hospedaje = Convert.ToInt32(textBox1.Text);
+
                 DataGridViewRow filaSeleccionada = dataGridView1.SelectedRows[0];
 
                 int precio = Convert.ToInt32(filaSeleccionada.Cells["Precio"].Value.ToString());

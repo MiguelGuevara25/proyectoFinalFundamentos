@@ -22,6 +22,7 @@ namespace Entidades
 
         public float Precio { get; set; }
 
+        public int numero_servicio { get; set; }
 
     }
 }

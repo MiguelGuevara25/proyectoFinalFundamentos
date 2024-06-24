@@ -93,7 +93,7 @@ namespace Datos
             {
                
                 SqlConnection con = db.ConectaDb();
-                string select = "SELECT codigo_U,contrasena,correo FROM Usuario WHERE correo = @correo;";
+                string select = "SELECT telefono,nacionalidad,genero,edad,apellido_M,apellido_P,nombre,codigo_U,contrasena,correo FROM Usuario WHERE correo = @correo;";
                 SqlCommand cmd = new SqlCommand(select, con);
                 cmd.Parameters.AddWithValue("@correo", correo);
 
@@ -104,6 +104,12 @@ namespace Datos
                     user.codigo_U = (int)reader["codigo_U"];
                     user.contrasena = (string)reader["contrasena"];
                     user.correo = (string)reader["correo"];
+                    user.apellido_P = (string)reader["apellido_P"];
+                    user.apellido_M = (string)reader["apellido_M"];
+                    user.telefono = (int)reader["telefono"];
+                    user.nacionalidad = (string)reader["nacionalidad"];
+                    user.genero = (string)reader["genero"];
+                    user.edad = (int)reader["edad"];
 
                 }
 

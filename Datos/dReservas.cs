@@ -86,7 +86,7 @@ namespace Datos
                                 INNER JOIN Tipo_de_habitaciones ON Tipo_de_habitaciones.t_h_id=Habitacion.t_h_id
                                 LEFT JOIN  Servicios_adicionales ON Servicios_adicionales.servicio_A_id=Reserva.servicio_A_id
                                 LEFT JOIN Tipo_de_servicio ON Tipo_de_servicio.tipo_ser_id=Servicios_adicionales.tipo_ser_id
-                                WHERE correo='alexisquisperamos567@gmail.com'";
+                                WHERE correo=@correo";
 
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@correo", correo);

@@ -27,6 +27,13 @@ namespace Trabajofinal_Fundamentos
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
+            if (Conexion_forms.DatoTipo_pago=="CONTADO")
+            {
+
+
+            }
             Form5 formulario5 = new Form5();
 
             formulario5.Show();

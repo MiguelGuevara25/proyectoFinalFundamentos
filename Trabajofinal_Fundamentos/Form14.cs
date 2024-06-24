@@ -103,5 +103,13 @@ namespace Trabajofinal_Fundamentos
                 }
             }
         }
+
+        private void Form14_Load(object sender, EventArgs e)
+        {
+            label11.Text =$" {Conexion_forms.precio}";
+            label12.Text =$"{ Conexion_forms.tipo_de_servicio}";
+            label13.Text = $"{Conexion_forms.numero_servico}";
+
+        }
     }
 }

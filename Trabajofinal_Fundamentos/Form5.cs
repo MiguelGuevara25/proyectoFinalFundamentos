@@ -66,5 +66,14 @@ namespace Trabajofinal_Fundamentos
         {
 
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Form18 formulario18 = new Form18();
+
+            formulario18.Show();
+
+            this.Close();
+        }
     }
 }

@@ -95,13 +95,14 @@
             // 
             // panel3
             // 
-            this.panel3.BackgroundImage = global::Trabajofinal_Fundamentos.Properties.Resources.Screenshot_39;
+            this.panel3.BackgroundImage = global::Trabajofinal_Fundamentos.Properties.Resources.Screenshot_391;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.monthCalendar1);
             this.panel3.Location = new System.Drawing.Point(506, 68);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(425, 357);
             this.panel3.TabIndex = 15;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint_1);
             // 
             // monthCalendar1
             // 
@@ -124,6 +125,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(467, 357);
             this.panel2.TabIndex = 14;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel1
             // 

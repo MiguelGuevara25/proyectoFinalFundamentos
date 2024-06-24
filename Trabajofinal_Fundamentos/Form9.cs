@@ -25,9 +25,13 @@ namespace Trabajofinal_Fundamentos
         nExtra extra = new nExtra();
         nHabitacion hat = new nHabitacion();
         string tipo_pago;
+
+       
         public Form9()
         {
             InitializeComponent();
+            textBox4.PasswordChar = '*';
+            
         }
 
         private void Form9_Load(object sender, EventArgs e)
@@ -172,9 +176,7 @@ namespace Trabajofinal_Fundamentos
                     int ha_id = hat.getId(Conexion_forms.orden);
 
                     MessageBox.Show($"Fanjar: {pagos.idMayor()}");
-                    reser.RegistrarReserva(Conexion_forms.tiempo_hospedaje, fecha, user.codigo_U, pago_id, ha_id);
-
-                    dispo.ActualizarReserva(Conexion_forms.tiempo_hospedaje, Conexion_forms.orden);
+                   
 
                     Form12 formulario12 = new Form12();
                     formulario12.Show();
@@ -192,6 +194,22 @@ namespace Trabajofinal_Fundamentos
             formualario8.Show();
 
             this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            textBox4.PasswordChar = '*';
+            pictureBox4.Hide();
+            pictureBox3.Show();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            textBox4.PasswordChar = '\0';
+
+            pictureBox3.Hide();
+            pictureBox4.Show();
         }
     }
 }

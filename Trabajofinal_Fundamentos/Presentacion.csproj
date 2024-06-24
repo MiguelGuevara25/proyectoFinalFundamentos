@@ -101,6 +101,12 @@
     <Compile Include="Form17.Designer.cs">
       <DependentUpon>Form17.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form17.resx">
       <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -275,16 +284,29 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\suite1.png" />
+    <None Include="Resources\tarjetas1.png" />
+    <None Include="Resources\user2.png" />
+    <None Include="Resources\user.png" />
     <None Include="Resources\Agregar_icono.png" />
     <Content Include="Resources\Deluxe.png" />
     <None Include="Resources\Disfrute.png" />
+    <None Include="Resources\Deluxe1.png" />
     <Content Include="Resources\doble.png" />
     <None Include="Resources\dorado.png" />
     <None Include="Resources\dorado1.png" />
+    <None Include="Resources\doble1.png" />
     <Content Include="Resources\Ejecutiva.png" />
+    <None Include="Resources\Ejecutiva1.png" />
     <Content Include="Resources\Estandar.png" />
+    <None Include="Resources\Estandar1.png" />
     <Content Include="Resources\Familiar.png" />
     <None Include="Resources\Piscina.png" />
+    <None Include="Resources\Fondo Usuario1.png" />
+    <None Include="Resources\gratis-png-equipo-iconos-usuario-perfil-masculino-usuario.png" />
+    <None Include="Resources\ojo1.png" />
+    <None Include="Resources\ojo2.png" />
+    <None Include="Resources\Familiar1.png" />
     <Content Include="Resources\Queen.png" />
     <None Include="Resources\Screenshot_36.png" />
     <None Include="Resources\Restarutante.png" />
@@ -296,6 +318,8 @@
     <None Include="Resources\Screenshot_42.png" />
     <None Include="Resources\Screenshot_43.png" />
     <None Include="Resources\Screenshot_44.png" />
+    <None Include="Resources\Queen1.png" />
+    <None Include="Resources\Screenshot_391.png" />
     <Content Include="Resources\suite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

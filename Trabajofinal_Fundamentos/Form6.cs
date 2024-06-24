@@ -40,23 +40,26 @@ namespace Trabajofinal_Fundamentos
 
             this.button10.MouseEnter += new System.EventHandler(this.button10_MouseEnter);
             this.button10.MouseLeave += new System.EventHandler(this.button10_MouseLeave);
+
+           
         }
 
         private void button3_MouseEnter(object sender, EventArgs e)
         {
             // Código a ejecutar cuando el mouse entra en el botón
-            this.button3.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
+            this.button3.BackColor = Color.LightBlue; 
 
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\Estandar.png");
+            pictureBox1.Image = Properties.Resources.Estandar;
+           
             
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)
         {
             // Código a ejecutar cuando el mouse sale del botón
-            this.button3.BackColor = SystemColors.Control; // Restaurar el color de fondo original del botón
+            this.button3.BackColor = SystemColors.Control; 
             pictureBox1.Image = null;
 
         }
@@ -65,9 +68,8 @@ namespace Trabajofinal_Fundamentos
         {
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
-            this.button3.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\doble.png");
-
+            this.button3.BackColor = Color.LightBlue; 
+            pictureBox1.Image = Properties.Resources.doble;
         }
 
         private void button4_MouseLeave(object sender, EventArgs e)
@@ -83,8 +85,8 @@ namespace Trabajofinal_Fundamentos
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
             this.button5.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\suite.png");
-
+           
+            pictureBox1.Image = Properties.Resources.suite;
         }
 
         private void button5_MouseLeave(object sender, EventArgs e)
@@ -100,8 +102,7 @@ namespace Trabajofinal_Fundamentos
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
             this.button6.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\Familiar.png");
-
+            pictureBox1.Image = Properties.Resources.Familiar;
         }
 
         private void button6_MouseLeave(object sender, EventArgs e)
@@ -117,8 +118,9 @@ namespace Trabajofinal_Fundamentos
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
             this.button7.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\Ejecutiva.png");
 
+            
+            pictureBox1.Image = Properties.Resources.Ejecutiva;
         }
 
         private void button7_MouseLeave(object sender, EventArgs e)
@@ -134,8 +136,8 @@ namespace Trabajofinal_Fundamentos
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
             this.button8.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\Deluxe.png");
-
+           
+            pictureBox1.Image = Properties.Resources.Deluxe;
         }
 
         private void button8_MouseLeave(object sender, EventArgs e)
@@ -151,7 +153,7 @@ namespace Trabajofinal_Fundamentos
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
             this.button9.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\Queen.png");
+            pictureBox1.Image = Properties.Resources.Queen;
         }
 
         private void button9_MouseLeave(object sender, EventArgs e)
@@ -166,9 +168,8 @@ namespace Trabajofinal_Fundamentos
         {
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             // Código a ejecutar cuando el mouse entra en el botón
-            this.button10.BackColor = Color.LightBlue; // Cambiar color de fondo del botón
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\Resources\Estandar.png");
-
+            this.button10.BackColor = Color.LightBlue; // Cambiar color de fondo del botó
+            pictureBox1.Image = Properties.Resources.Estandar;
         }
 
         private void button10_MouseLeave(object sender, EventArgs e)
@@ -198,22 +199,37 @@ namespace Trabajofinal_Fundamentos
 
         private void Form6_Load(object sender, EventArgs e)
         {
-
+            Conexion_forms.tipo_de_habitacion = "ESTANDAR";
+            Conexion_forms.fecha = DateTime.Today;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Conexion_forms.fecha = monthCalendar1.SelectionStart;
-            Conexion_forms.tipo_de_habitacion =eleccion;
-            
 
-            if (Conexion_forms.tipo_de_habitacion!="")
+
+            MessageBox.Show(Conexion_forms.tipo_de_habitacion);
+            if (Conexion_forms.tipo_de_habitacion!="" )
             {
-                Form7 formulario = new Form7();
+                Conexion_forms.tipo_de_habitacion = eleccion;
+                if (Conexion_forms.fecha<DateTime.Today)
+                {
 
-                formulario.Show();
+                    MessageBox.Show("Por favor, seleccione una fecha reciente");
+          
+                }
+                else
+                {
+                    Form7 formulario = new Form7();
 
-                this.Close();
+                    formulario.Show();
+
+                    this.Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, seleccione una habitación");
             }
         }
 
@@ -244,7 +260,7 @@ namespace Trabajofinal_Fundamentos
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            eleccion = "CUADRUPLES";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -254,6 +270,16 @@ namespace Trabajofinal_Fundamentos
             formualario5.Show();
 
             this.Close();
+        }
+
+        private void panel3_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

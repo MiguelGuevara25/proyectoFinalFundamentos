@@ -21,5 +21,7 @@ namespace Trabajofinal_Fundamentos
         static public string Stipo_pago;
         static public string DatoTipo_pago;
         static public List<eExtra> lista_extra;
+        static public string tipo_de_servicio;
+        static public int numero_servico;
     }
 }

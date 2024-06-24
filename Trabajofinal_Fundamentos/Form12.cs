@@ -16,5 +16,13 @@ namespace Trabajofinal_Fundamentos
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form5 formulario5 = new Form5();
+
+            formulario5.Show();
+            this.Close();
+        }
     }
 }

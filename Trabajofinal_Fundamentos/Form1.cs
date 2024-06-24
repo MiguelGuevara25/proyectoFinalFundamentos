@@ -27,6 +27,7 @@ namespace Trabajofinal_Fundamentos
             pictureBox1.BackColor = Color.Transparent;
             
             dispon.ActualizarInicio();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

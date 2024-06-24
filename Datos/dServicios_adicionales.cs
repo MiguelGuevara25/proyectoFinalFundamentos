@@ -19,7 +19,7 @@ namespace Datos
             eServicios_adicionales servicio = null;
             String query = @"SELECT servicio_A_id,fechas_inicio,fechas_fin,tiempo,Tipo_de_servicio.tipo_servicio,precio,descripción,n_servicio,estado FROM Servicios_adicionales
                              INNER JOIN Tipo_de_servicio ON Tipo_de_servicio.tipo_ser_id=Servicios_adicionales.tipo_ser_id
-                           WHERE Tipo_de_servicio.tipo_servicio=@tipo";
+                           WHERE Tipo_de_servicio.tipo_servicio=@tipo AND estado='LIBRE'";
 
             SqlCommand command = new SqlCommand(query, con);
 
@@ -40,6 +40,7 @@ namespace Datos
                 servicio.estado = (string)reader["estado"];
                 servicio.Orden = (int)reader["servicio_A_id"];
                 servicio.Precio = (int)reader["precio"];
+                servicio.numero_servicio = (int)reader["n_servicio"];
 
                 lista.Add(servicio);
             }

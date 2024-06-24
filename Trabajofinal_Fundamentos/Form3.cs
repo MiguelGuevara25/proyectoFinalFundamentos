@@ -27,6 +27,9 @@ namespace Trabajofinal_Fundamentos
             label2.BackColor = Color.Transparent;
             label3.BackColor = Color.Transparent;
             panel1.BackColor = Color.FromArgb(128, 0, 255, 255);
+
+            pictureBox1.Hide();
+            textBox2.PasswordChar = '*';
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -76,6 +79,22 @@ namespace Trabajofinal_Fundamentos
             formulario1.Show();
 
             this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Show();
+            pictureBox2.Hide();
+
+            textBox2.PasswordChar = '\0';
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Hide();
+            pictureBox2.Show();
+
+            textBox2.PasswordChar = '*';
         }
     }
 }

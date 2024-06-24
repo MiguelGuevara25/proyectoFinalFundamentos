@@ -53,6 +53,7 @@ namespace Datos
                 FROM Habitacion
                 INNER JOIN Disponibilidad ON Disponibilidad.dispon_id = Habitacion.dispon_id
                 INNER JOIN Tipo_de_habitaciones ON Habitacion.t_h_id = Tipo_de_habitaciones.t_h_id
+                WHERE estado='LIBRE'
                 
             ";
             SqlCommand cmd = new SqlCommand(query, con);
@@ -86,11 +87,11 @@ namespace Datos
                 FROM Habitacion
                 INNER JOIN Disponibilidad ON Disponibilidad.dispon_id = Habitacion.dispon_id
                 INNER JOIN Tipo_de_habitaciones ON Habitacion.t_h_id = Tipo_de_habitaciones.t_h_id
-                WHERE Tipo_de_habitaciones.tipo_habitacion=@tipo;
+                WHERE Tipo_de_habitaciones.tipo_habitacion=@tipo AND estado='LIBRE';
             ";
             SqlCommand cmd = new SqlCommand(query, con);
 
-            Console.Write(tipo," ",fecha);
+           
             cmd.Parameters.AddWithValue("@tipo", tipo);
             cmd.Parameters.AddWithValue("@fecha", fecha);
             SqlDataReader reader = cmd.ExecuteReader();

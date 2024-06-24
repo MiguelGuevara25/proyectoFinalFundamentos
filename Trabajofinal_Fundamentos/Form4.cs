@@ -32,5 +32,10 @@ namespace Trabajofinal_Fundamentos
             label3.BackColor = Color.Transparent;
             label2.BackColor = Color.Transparent;
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
