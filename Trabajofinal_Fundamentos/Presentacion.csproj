@@ -172,6 +172,9 @@
     <EmbeddedResource Include="Form15.resx">
       <DependentUpon>Form15.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form17.resx">
       <DependentUpon>Form17.cs</DependentUpon>
     </EmbeddedResource>
@@ -272,12 +275,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Agregar_icono.png" />
     <Content Include="Resources\Deluxe.png" />
+    <None Include="Resources\Disfrute.png" />
     <Content Include="Resources\doble.png" />
+    <None Include="Resources\dorado.png" />
+    <None Include="Resources\dorado1.png" />
     <Content Include="Resources\Ejecutiva.png" />
     <Content Include="Resources\Estandar.png" />
     <Content Include="Resources\Familiar.png" />
+    <None Include="Resources\Piscina.png" />
     <Content Include="Resources\Queen.png" />
+    <None Include="Resources\Screenshot_36.png" />
+    <None Include="Resources\Restarutante.png" />
+    <None Include="Resources\Screenshot_37.png" />
+    <None Include="Resources\Screenshot_38.png" />
+    <None Include="Resources\Screenshot_39.png" />
+    <None Include="Resources\Screenshot_40.png" />
+    <None Include="Resources\Screenshot_41.png" />
+    <None Include="Resources\Screenshot_42.png" />
+    <None Include="Resources\Screenshot_43.png" />
+    <None Include="Resources\Screenshot_44.png" />
     <Content Include="Resources\suite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

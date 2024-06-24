@@ -16,6 +16,7 @@ namespace Trabajofinal_Fundamentos
     {
         nReserva reser = new nReserva();
         nServicios_adicional server = new nServicios_adicional();
+        nPagos pago = new nPagos();
         public Form14()
         {
             InitializeComponent();
@@ -41,30 +42,64 @@ namespace Trabajofinal_Fundamentos
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if(Conexion_forms.Stipo_pago=="CREDITO" || Conexion_forms.Stipo_pago == "DEBITO")
+
+            MessageBox.Show(Conexion_forms.Stipo_pago);
+          
+            if (Conexion_forms.Stipo_pago == "CREDITO" || Conexion_forms.Stipo_pago == "DEBITO")
             {
                 eReserva reserva;
-                reserva=reser.UltimaReserva(Conexion_forms.correo);
+                int id_pago = 0;
+                if (Conexion_forms.Stipo_pago == "CREDITO")
+                {
+                    id_pago = 2;
+                }
+                else
+                {
+                    if (Conexion_forms.Stipo_pago == "DEBITO")
+                    {
+                        id_pago = 3;
+                    }
+
+                }
+
+                DateTime fecha = DateTime.Today;
+                pago.RegistrarPago(pago.idMayor(), Conexion_forms.precio_Ser, fecha, "PAGADO", id_pago, 4);
+
+                reserva = reser.UltimaReserva(Conexion_forms.correo);
 
 
 
-                server.InsertarServicioAdicional(reserva,Conexion_forms.orden);
+                server.InsertarServicioAdicional(reserva, Conexion_forms.orden);
 
+
+                server.actualizarEstado(Conexion_forms.orden);
                 MessageBox.Show("Felidades a Reservado correctamente");
+
+                Form5 formulario5 = new Form5();
+
+                formulario5.Show();
+
+                this.Close();
 
 
             }
             else
             {
-                if(Conexion_forms.Stipo_pago=="CONTADO")
+                if (Conexion_forms.Stipo_pago == "CONTADO")
                 {
+                    
+                        int id_pago = 1;
+                      
+                        DateTime fecha = DateTime.Today;
+                        pago.RegistrarPago(pago.idMayor(), Conexion_forms.precio_Ser, fecha, "VIGENTE", id_pago, 4);
 
 
-                    Form17 formulario = new Form17();
+                        Form17 formulario = new Form17();
 
-                    formulario.Show();
+                        formulario.Show();
 
-                    this.Close();
+                        this.Close();
+                    
                 }
             }
         }

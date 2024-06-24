@@ -205,7 +205,7 @@ namespace Trabajofinal_Fundamentos
         {
             Conexion_forms.fecha = monthCalendar1.SelectionStart;
             Conexion_forms.tipo_de_habitacion =eleccion;
-            Conexion_forms.tiempo_hospedaje = Convert.ToInt32(textBox1.Text);
+            
 
             if (Conexion_forms.tipo_de_habitacion!="")
             {

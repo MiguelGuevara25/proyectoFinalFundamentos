@@ -42,7 +42,38 @@ namespace Datos
         }
 
   
+        public List<eCombinacion>listarTodo()
+        {
+            List<eCombinacion> lista = new List<eCombinacion>();
+            eCombinacion comba = null;
 
+            SqlConnection con = db.ConectaDb();
+            string query = @"
+                SELECT Disponibilidad.dispon_id,fecha_inicio,espacios,Tipo_de_habitaciones.tipo_habitacion,precio,fecha_fin,estado
+                FROM Habitacion
+                INNER JOIN Disponibilidad ON Disponibilidad.dispon_id = Habitacion.dispon_id
+                INNER JOIN Tipo_de_habitaciones ON Habitacion.t_h_id = Tipo_de_habitaciones.t_h_id
+                
+            ";
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                comba = new eCombinacion();
+                comba.Orden = (int)reader["dispon_id"];
+                comba.Tipo = (string)reader["tipo_habitacion"];
+                comba.Precio = (int)reader["precio"];
+                comba.Disponibilidad = (DateTime)reader["fecha_inicio"];
+                comba.Espacios = (int)reader["espacios"];
+                comba.Fecha_Fin = (DateTime)reader["fecha_fin"];
+                comba.Estado = (string)reader["estado"];
+
+                lista.Add(comba);
+            }
+            reader.Close();
+            return lista;
+        }
 
         public List<eCombinacion>listartodo(string tipo,DateTime fecha)
         {
@@ -55,7 +86,7 @@ namespace Datos
                 FROM Habitacion
                 INNER JOIN Disponibilidad ON Disponibilidad.dispon_id = Habitacion.dispon_id
                 INNER JOIN Tipo_de_habitaciones ON Habitacion.t_h_id = Tipo_de_habitaciones.t_h_id
-                WHERE Tipo_de_habitaciones.tipo_habitacion='ESTANDAR' 
+                WHERE Tipo_de_habitaciones.tipo_habitacion=@tipo;
             ";
             SqlCommand cmd = new SqlCommand(query, con);
 

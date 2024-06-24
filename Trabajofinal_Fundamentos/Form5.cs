@@ -21,6 +21,7 @@ namespace Trabajofinal_Fundamentos
         {
             label2.BackColor = Color.Transparent;
             label1.BackColor = Color.Transparent;
+            pictureBox1.BackColor = Color.Transparent;
 
             Conexion_forms.numero_personas = 0;
         }
@@ -59,6 +60,11 @@ namespace Trabajofinal_Fundamentos
             formulario11.Show();
 
             this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -27,6 +27,11 @@ namespace Negocio
 
             return b;
         }
+
+        public List<eCombinacion>ListarTodo()
+        {
+            return ha.listarTodo();
+        }
         
     }
 }

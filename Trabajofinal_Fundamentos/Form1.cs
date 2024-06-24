@@ -25,7 +25,7 @@ namespace Trabajofinal_Fundamentos
             label2.BackColor = Color.Transparent;
             label3.BackColor = Color.Transparent;
             pictureBox1.BackColor = Color.Transparent;
-
+            
             dispon.ActualizarInicio();
         }
 

@@ -17,7 +17,7 @@ namespace Datos
             SqlConnection con = db.ConectaDb();
 
             eServicios_adicionales servicio = null;
-            String query = @"SELECT servicio_A_id,fechas_inicio,fechas_fin,tiempo,Tipo_de_servicio.tipo_servicio,descripción,n_servicio,estado FROM Servicios_adicionales
+            String query = @"SELECT servicio_A_id,fechas_inicio,fechas_fin,tiempo,Tipo_de_servicio.tipo_servicio,precio,descripción,n_servicio,estado FROM Servicios_adicionales
                              INNER JOIN Tipo_de_servicio ON Tipo_de_servicio.tipo_ser_id=Servicios_adicionales.tipo_ser_id
                            WHERE Tipo_de_servicio.tipo_servicio=@tipo";
 
@@ -39,6 +39,7 @@ namespace Datos
                 servicio.Descripcion = (string)reader["descripción"];
                 servicio.estado = (string)reader["estado"];
                 servicio.Orden = (int)reader["servicio_A_id"];
+                servicio.Precio = (int)reader["precio"];
 
                 lista.Add(servicio);
             }
@@ -65,6 +66,22 @@ namespace Datos
             db.DesconectaDb();
 
             return "Inserto";
+        }
+
+        public string ActualizarServicioEstado(int orden)
+        {
+            SqlConnection con = db.ConectaDb();
+
+            string query = "UPDATE Servicios_adicionales SET estado='RESERVADO' WHERE servicio_A_id=@orden";
+
+            SqlCommand command = new SqlCommand(query,con);
+
+            command.Parameters.AddWithValue("@orden", orden);
+            command.ExecuteNonQuery();
+
+            db.DesconectaDb();
+            return "Actualizar";
+
         }
     }
 }

@@ -22,6 +22,7 @@ namespace Trabajofinal_Fundamentos
         private void Form11_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = reser.MostrarResera(Conexion_forms.correo);
+            label1.BackColor = Color.Transparent;
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -16,6 +16,7 @@ namespace Trabajofinal_Fundamentos
     public partial class Form8 : Form
     {
         nExtra extra = new nExtra();
+        nUsuario user = new nUsuario();
         public Form8()
         {
             InitializeComponent();
@@ -37,13 +38,6 @@ namespace Trabajofinal_Fundamentos
                 }
                 else
                 {
-                    if (Convert.ToInt32(edad.Text) < 18)
-                    {
-                        MessageBox.Show("Es menor de edad");
-
-                    }
-                    else
-                    {
                         SqlConnection conexion;
                         conexion = new SqlConnection("Data Source=.;Initial Catalog=HotelBooking;Integrated Security=True;");
                         conexion.Open();
@@ -69,10 +63,31 @@ namespace Trabajofinal_Fundamentos
                             }
                             else
                             {
+                            eUsuario usuario = null;
+                             usuario=user.Validar(Conexion_forms.correo);
                                 
-                                    extra.RegistrarUser(nombre.Text, apellido_p.Text, apellido_m.Text, correo.Text, nacionalidad.Text, genero.Text, Convert.ToInt32(telefono.Text), Convert.ToInt32(edad.Text));
-                                    conexion.Close();
+                                conexion.Close();
                                 Conexion_forms.numero_personas = Conexion_forms.numero_personas + 1;
+
+                            eExtra ex = new eExtra()
+                            {
+                                nombre = nombre.Text,
+                                apellido_M=apellido_m.Text,
+                                apellido_P=apellido_p.Text,
+                                correo=correo.Text,
+                                nacionalidad=nacionalidad.Text,
+                                genero=genero.Text,
+                                telefono= Convert.ToInt32(telefono.Text),
+                                edad= Convert.ToInt32(edad.Text),
+                                codigo_U=usuario.codigo_U
+
+                            };
+
+
+                            Conexion_forms.lista_extra.Add(ex);
+
+                            this.Close();
+
                            
                             }
                         }
@@ -81,20 +96,32 @@ namespace Trabajofinal_Fundamentos
                             Console.WriteLine($"Error al intentar verificar la presencia del elemento en la base de datos: {ex.Message}");
                             conexion.Close();
                         }
-                    }
+                    
                 }
             }
 
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+ 
+
+        private void Form8_Load(object sender, EventArgs e)
         {
-            Form7 formulario7 = new Form7();
+            label1.BackColor = Color.Transparent;
+            label2.BackColor = Color.Transparent;
+            label4.BackColor = Color.Transparent;
+            label6.BackColor = Color.Transparent;
+            label11.BackColor = Color.Transparent;
+            label10.BackColor = Color.Transparent;
+            label9.BackColor = Color.Transparent;
+            label7.BackColor = Color.Transparent;
 
-            formulario7.Show();
 
-            this.Close();
+     
+
+
+
+
         }
     }
 }

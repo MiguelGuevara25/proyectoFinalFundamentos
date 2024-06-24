@@ -26,6 +26,7 @@ namespace Trabajofinal_Fundamentos
         {
             label2.BackColor = Color.Transparent;
             label3.BackColor = Color.Transparent;
+            panel1.BackColor = Color.FromArgb(128, 0, 255, 255);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,7 +37,7 @@ namespace Trabajofinal_Fundamentos
 
             try
             { 
-                if (usuario.correo == null)
+                if (usuario == null)
                 {
                     MessageBox.Show("Correo no encontrado");
 

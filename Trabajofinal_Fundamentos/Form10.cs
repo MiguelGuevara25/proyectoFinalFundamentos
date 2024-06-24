@@ -46,7 +46,9 @@ namespace Trabajofinal_Fundamentos
 
         private void Form10_Load(object sender, EventArgs e)
         {
-
+            label1.BackColor = Color.Transparent;
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,7 +60,13 @@ namespace Trabajofinal_Fundamentos
                 DataGridViewRow filaSeleccionada = dataGridView1.SelectedRows[0];
 
                 int orden = Convert.ToInt32(filaSeleccionada.Cells["Orden"].Value.ToString());
+                int monto = Convert.ToInt32(filaSeleccionada.Cells["Precio"].Value.ToString());
+
+                MessageBox.Show($"{monto}");
+
                 Conexion_forms.orden = orden;
+                Conexion_forms.precio_Ser = monto;
+                Conexion_forms.Stipo_pago = comboBox2.SelectedItem.ToString();
 
                 Form14 form = new Form14();
 

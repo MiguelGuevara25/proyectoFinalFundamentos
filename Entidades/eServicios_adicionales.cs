@@ -20,6 +20,8 @@ namespace Entidades
 
         public string estado { get; set; }
 
+        public float Precio { get; set; }
+
 
     }
 }

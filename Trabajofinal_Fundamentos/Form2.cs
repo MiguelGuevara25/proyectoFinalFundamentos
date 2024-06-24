@@ -22,7 +22,8 @@ namespace Trabajofinal_Fundamentos
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            panel1.BackColor = Color.FromArgb(128, 0, 0, 190);
+            label1.BackColor = Color.Transparent;
         }
 
         private void button1_Click(object sender, EventArgs e)

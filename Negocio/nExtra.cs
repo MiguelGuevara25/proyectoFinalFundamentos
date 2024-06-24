@@ -16,7 +16,7 @@ namespace Negocio
             extra = new dExtra();
         }
 
-        public string RegistrarUser(string nombre, string apellido_P, string apellido_M, string correo, string nacionalidad, string genero, int telefono, int edad)
+        public string RegistrarUser(string nombre, string apellido_P, string apellido_M, string correo, string nacionalidad, string genero, int telefono, int edad,int codigo_U)
         {
             eExtra ex = new eExtra()
             {
@@ -28,6 +28,7 @@ namespace Negocio
                 genero = genero,
                 edad = edad,
                 telefono = telefono,
+                codigo_U=codigo_U,
             };
 
             return extra.Insertar(ex);

@@ -27,5 +27,10 @@ namespace Negocio
 
             return server.insertar(reserva,a);
         }
+
+        public string actualizarEstado(int id)
+        {
+            return server.ActualizarServicioEstado(id);
+        }
     }
 }

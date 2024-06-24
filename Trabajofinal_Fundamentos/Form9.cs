@@ -22,7 +22,7 @@ namespace Trabajofinal_Fundamentos
         nUsuario usuario = new nUsuario();
         eUsuario user = new eUsuario();
         nDisponibilidad dispo = new nDisponibilidad();
-
+        nExtra extra = new nExtra();
         nHabitacion hat = new nHabitacion();
         string tipo_pago;
         public Form9()
@@ -40,9 +40,26 @@ namespace Trabajofinal_Fundamentos
             textBox3.Hide();
             textBox4.Hide();
 
-            label11.Text = $"{Conexion_forms.precio} $";
+            int precio = Conexion_forms.tiempo_hospedaje * Conexion_forms.precio;
+
+            label11.Text = $"{precio} $";
             label12.Text = $"{Conexion_forms.tipo_de_habitacion}";
             label10.Text = $"{Conexion_forms.numero_personas}";
+            label13.Text = $"{Conexion_forms.orden}";
+
+            label11.BackColor = Color.Transparent;
+            label12.BackColor = Color.Transparent;
+            label10.BackColor = Color.Transparent;
+            label13.BackColor = Color.Transparent;
+
+            label5.BackColor = Color.Transparent;
+            label7.BackColor = Color.Transparent;
+            label9.BackColor = Color.Transparent;
+            label8.BackColor = Color.Transparent;
+
+
+
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -110,17 +127,28 @@ namespace Trabajofinal_Fundamentos
             {
                 DateTime fecha = DateTime.Today;
                 int pago_id = pagos.idMayor();
-                string mensaje=pagos.RegistrarPago(pago_id, Conexion_forms.precio, fecha, cadena, id, 4);
+                int precio = Conexion_forms.precio * Conexion_forms.tiempo_hospedaje;
+                string mensaje=pagos.RegistrarPago(pago_id, precio, fecha, cadena, id, 4);
+
 
                 MessageBox.Show(mensaje);
 
                 user = usuario.Validar(Conexion_forms.correo);
 
-               
+                if (Conexion_forms.lista_extra.Count>0)
+                {
+                    foreach (eExtra i in Conexion_forms.lista_extra)
+                    {
+
+                        extra.RegistrarUser(i.nombre, i.apellido_P, i.apellido_M, i.correo, i.nacionalidad, i.genero, i.telefono, i.edad, i.codigo_U);
+                    }
+                }
+
                 int ha_id=hat.getId(Conexion_forms.orden);
                 reser.RegistrarReserva(Conexion_forms.tiempo_hospedaje,fecha,user.codigo_U,pago_id,ha_id);
 
                 dispo.ActualizarReserva(Conexion_forms.tiempo_hospedaje,Conexion_forms.orden);
+
 
                 
                 Form13 formulario13 = new Form13();
@@ -158,6 +186,7 @@ namespace Trabajofinal_Fundamentos
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             Form8 formualario8 = new Form8();
 
             formualario8.Show();

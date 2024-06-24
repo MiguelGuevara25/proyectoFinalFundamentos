@@ -98,6 +98,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Yellow;
             this.label3.Location = new System.Drawing.Point(78, 158);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 13);
@@ -107,6 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
             this.label2.Location = new System.Drawing.Point(78, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 13);
@@ -117,6 +119,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
             this.label1.Location = new System.Drawing.Point(220, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(155, 20);
@@ -127,6 +130,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Trabajofinal_Fundamentos.Properties.Resources.Screenshot_44;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(603, 510);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -136,6 +141,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.DoubleBuffered = true;
             this.Name = "Form10";
             this.Text = "Form10";
             this.Load += new System.EventHandler(this.Form10_Load);

@@ -42,7 +42,7 @@ namespace Datos
         public eReserva getReservaActual(string correo)
         {
             eReserva reserva = null;
-            Console.WriteLine($"nADA:{extra.codigo_U}");
+          
 
             Console.ReadLine();
             SqlConnection con = db.ConectaDb();

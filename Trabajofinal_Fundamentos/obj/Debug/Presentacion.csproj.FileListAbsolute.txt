@@ -29,3 +29,5 @@ C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Tra
 C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\obj\Debug\Trabajofinal_Fundamentos.Form8.resources
 C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\obj\Debug\Trabajofinal_Fundamentos.Form9.resources
 C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\obj\Debug\Trabajofinal_Fundamentos.Form17.resources
+C:\Users\USUARIO\Desktop\Carpeta_Trabajo_Fundamenta\proyectoFinalFundamentos\Trabajofinal_Fundamentos\obj\Debug\Trabajofinal_Fundamentos.Form16.resources
